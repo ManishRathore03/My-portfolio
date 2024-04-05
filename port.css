@@ -1,0 +1,194 @@
+
+/* .container
+{
+    background-color: #A663CC;
+    color: #B8D0EB;
+
+}
+
+.h1{
+    text-align: center;
+} */
+
+
+body
+{
+font-family: Arial, sans-serif;
+background-color: #E1DEE3;
+color: #0A0908;
+margin: 0;
+padding: 0;
+}
+
+.itachi
+{
+    width: 200px;
+    height: 200ox;
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+nav
+{
+    position: sticky;
+    top: 0;
+    background-color: #616283;
+    padding: 5px 0;
+}
+
+
+nav ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+float: right;
+}
+
+nav h1
+{
+margin: 0;
+display:inline ;
+}
+
+nav ul li
+{
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a
+{
+    color: rgb(8, 11, 30);
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+/* .itachi
+{
+    border-radius: 50%;
+} */
+
+
+nav ul li a:hover
+{
+    padding: 10px;
+    background-color: #0A0908 ;
+    color:   rgb(167, 198, 187);
+}
+
+header
+{
+    background-color: #DEC3BE;
+    padding: 20px;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+.itachi
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+
+main
+{
+    padding: 10px; /* spaCE BW manish and about div*/
+
+}
+
+section
+{
+    margin-bottom: 5px; /*space bw education and about div*/
+    padding: 30px;
+}
+ section h2{
+    color: rgba(16, 23, 17, 0.882);
+
+
+ }
+
+.contact-head
+{
+    margin-bottom: 20px;
+}
+
+ .contact-info
+ {
+    color: rgb(29, 29, 13) ;
+ }
+
+.contact-info p
+{
+    margin-bottom: 0;
+
+}
+
+.contact-info ul
+{
+    list-style-type: none; /*to remove dot in ul*/
+    padding: 20px;
+    display: inline-flex;
+
+}
+
+#contact 
+{
+    background-color: #eee8f0 ;
+    padding:40px;
+    /* margin: 0% 25%;  */
+    text-align: center;
+}
+
+.contact-info ul a img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+}
+
+
+.contact-info ul a img:hover
+
+{
+    opacity: 0.7; /*reduce brightness when hover  */
+    cursor:pointer;
+}
+
+.contact-info li
+{
+    padding: 20px;
+}
+
+
+#Hobbies
+{
+    background-color: #B7AD99;
+}
+
+#About
+{
+    background-color: #B7AD99;
+}
+#Education
+{
+    background-color: #B7AD99;
+}
+
+#Achievements
+{
+    background-color: #B7AD99;
+}
